@@ -1,0 +1,69 @@
+/*=====COMMON CSS=====*/
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+/*=====calc Body=====*/
+.calc-body {
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: 6px 6px 13px #c5c5c5,
+        -6px -6px 13px #fbfbfb;
+    position: relative;
+}
+
+.display {
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 40px #d0d0d0,
+        inset -20px -20px 40px #f0f0f0;
+    text-align: right;
+    font-size: 24px;
+}
+
+.display:focus {
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 40px #d0d0d0,
+        inset -20px -20px 40px #f0f0f0;
+}
+
+.one {
+    background-color: rebeccapurple;
+}
+
+.calc-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button {
+    margin: 10px 5px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 42px;
+    cursor: pointer;
+    background: #e0e0e0;
+    box-shadow: 6px 6px 15px #c5c5c5,
+        -6px -6px 15px #fbfbfb;
+    border: none;
+}
+
+.calc-body p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
